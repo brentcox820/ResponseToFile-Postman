@@ -5,7 +5,7 @@ const express = require('express'),
 
    // Modify the folder path in which responses need to be stored
   folderPath = './Responses/',
-  defaultFileExtension = 'json', // Change the default file extension
+  defaultFileExtension = 'xml', // Change the default file extension
   bodyParser = require('body-parser'),
   DEFAULT_MODE = 'writeFile',
   path = require('path');
