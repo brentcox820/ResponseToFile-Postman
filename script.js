@@ -4,7 +4,7 @@ const express = require('express'),
   shell = require('shelljs'),
 
    // Modify the folder path in which responses need to be stored
-  folderPath = './Responses/',
+  folderPath = '/Users/brentcox/Downloads/APICS\ Files\ /responses',
   defaultFileExtension = 'xml', // Change the default file extension
   bodyParser = require('body-parser'),
   DEFAULT_MODE = 'writeFile',
