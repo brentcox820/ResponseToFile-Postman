@@ -15,7 +15,7 @@ shell.mkdir('-p', folderPath);
 
  // Change the limits according to your response size
 app.use(bodyParser.json({limit: '50mb', extended: true}));
-app.use(bodyParser.urlencoded({ limit: '50mb', extended: true })); 
+app.use(bodyParser.urlencoded({ limit: '50mb', extended: true }));
 
 app.get('/', (req, res) => res.send('Hello, I write data to file. Send them requests!'));
 
